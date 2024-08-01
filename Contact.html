@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Contact Us - HGZ Services</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/Logo crop.jpg" alt="Company Logo">
+            <span class="company-name">HGZ Services</span>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="quotation.html">Quotation</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+            <p>Fill out the form below and we will get back to you within 24 hours</p>
+            <hr>
+        </div>
+        <form class="contact-form" action="connect.php" method="post">
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name " required>
+            
+            <input type="text" id="company-name" name="company-name" placeholder="Company Name">
+            
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            
+            <input type="tel" id="contact-number" name="contact-number" placeholder="Contact Number" required>
+            
+            <select id="brand" name="brand"  required>
+                <option value="brand1">Type Of Query</option>
+                <option value="brand2">General Query</option>
+                <option value="brand2">Support</option>
+                <option value="brand3">Brands</option>
+                <option value="brand4">- Mecer</option>
+                <option value="brand2">- Acer</option>
+                <option value="brand3">- Lenovo</option>
+                <option value="brand4">- Hauwei</option>
+                <option value="brand2">- Samsung</option>
+                <option value="brand3">- Apple</option>
+                <option value="brand4">- Toshiba</option>
+                <option value="brand3">- Asus</option>
+                <option value="brand3">- Aver</option>
+                <option value="brand3">Brand 3</option>
+                <option value="brand3">Brand 3</option>
+                <option value="brand4">Brand 4</option>
+            </select>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </main>    
+    <div class="newsletter">
+        <div class="contact-section">
+            <h2>Contact</h2>
+            <p>Get in touch with us today</p>
+            <p>Go to contact form <a href="contact.html">here</a></p>
+        </div>
+        <div class="support-section">
+            <h2>Support</h2>
+            <p>Durban: +27 67 918 0102</p>
+            <p>Email: <a href="mailto:support@hgzservices.co.za">support@hgzservices.co.za</a></p>
+            <p><a href="mailto:sales@hgzservices.co.za">sales@hgzservices.co.za</a></p>
+            <p><a href="mailto:info@hgzservices.co.za">info@hgzservices.co.za</a></p>
+        </div>
+        <div class="legal-section">
+            <h2>LEGAL</h2>
+            <a href="disclaimer.html"><p>Disclaimer</p></a>
+            <a href="AUP.html"><p>Acceptable Use Policy</p></a>
+            <a href="TDN.html"><p>Take Down Notice</p></a>
+            <a href="Ethics.html"><p>Ethics</p></a>
+            <a href="PP.html"><p>Privacy Policy</p></a>
+            <a href="T&Cs.html"><p>Terms and Conditions</p></a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 HGZ Services. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
