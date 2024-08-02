@@ -220,6 +220,13 @@ p{
     padding: 10px;
 }
 
+.Products .OFFICE ul{
+    padding-left: 0;
+}
+.Products .ICT ul{
+    padding-left: 0;
+}
+
 
 .Products .ICT ul li{
     text-align: center;
@@ -758,7 +765,7 @@ button:hover{
         margin: auto;
         height: 70px;
         padding: 0;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .products-gallery{
@@ -910,7 +917,7 @@ button:hover{
     .header {
         width: 100%;
         height: 70px;
-        overflow: hidden;
+        overflow-x: hidden;
         padding: 0;
         margin: 0;
     }
@@ -992,8 +999,9 @@ button:hover{
     }
 
     .Products h2{
-       display: none;
+        display: none;
     }
+
     .Products img {
         width: 250px;
         height: 250px;
@@ -1033,19 +1041,6 @@ button:hover{
         cursor: pointer;
     }
 
-    .hamburger-menu {
-        display: block;
-    }
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active.bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active.bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
     .Products img{
         width: 200px;
         height: 200px;
@@ -1076,6 +1071,7 @@ button:hover{
         width: 100%;
         padding: 0;
         margin: 0;
+        overflow-x: hidden;
     }
 
     .hamburger{
@@ -1140,8 +1136,6 @@ button:hover{
 
     .Products{
         max-width: 500px;
-        padding: 0 10px;
-        margin: 10px;
     }
 
     .Products h2{
@@ -1185,23 +1179,33 @@ button:hover{
 @media only screen and (max-width: 425px) {
     .main{
         width: 100%;
+        padding: 0;
+    }
+
+    .main-content{
+        padding: 0;
     }
 
     .main .text-content{
         margin-top: 50px;
+        padding: 0;
     }
-
+    
     .main .text-content p{
+        padding: 30px;
         font-size: 14px;
+        line-height: 1.5;
     }
     
     .main .text-content h1{
+        padding: 5px;
         font-size: 35px;
     }
 
     .video-container{
-        width: 300px;
+        width: 340px;
         height: 350px;
+        margin: auto;
     }
     
     .video{
@@ -1277,6 +1281,9 @@ button:hover{
         flex-wrap: wrap;
         flex-direction: row;
         height: 140vh;
+        margin: 0;
+        padding: 0;
+
     }
 
     .marquee h1{
